@@ -25,7 +25,7 @@ def mathProblem(number1, number2, operator):
         raise ValueError("Invalid operator")
     return calculation, result
 
-def math_quiz():
+def main():
     score = 0
     questionAmount = 4
 
@@ -49,4 +49,4 @@ def math_quiz():
     print(f"\nGame over! Your score is: {score}/{questionAmount}")
 
 if __name__ == "__main__":
-    math_quiz()
+    main()
