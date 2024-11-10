@@ -5,18 +5,17 @@ setup(
     version="0.1",
     packages=find_packages(),
     include_package_data=True,
-    install_requires=[],  # List dependencies here if needed
+    install_requires=[],
     entry_points={
         "console_scripts": [
-            "math_quiz=math_quiz.math_quiz:main"  # Replace `main` with the function to run your quiz
+            "math_quiz=math_quiz.math_quiz:math_quiz"  # Points to the `math_quiz` function in `math_quiz.py`
         ]
     },
-    author="Your Name",
-    author_email="your-email@example.com",
+    author="Arne Detleffsen",
     description="A simple math quiz game",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/yourrepository",  # Replace with your repo URL
+    url="https://github.com/arne10001/dsss_hw_2",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
